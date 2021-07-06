@@ -46,8 +46,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Prateek Punetha"
+    subtitle = ""
     owner = ""
     keywords = ""
     copyright = ""
@@ -60,7 +60,7 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "prateekpunetha.dev"
       logoHomeLink = "/"
 
     [languages.en.menu]
