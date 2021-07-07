@@ -1,6 +1,10 @@
 +++
 title = "About Me"
 date = "2021-07-07"
+aliases = [
+    "/about",
+    "/contact",
+]
 +++
 
 # Hi there
