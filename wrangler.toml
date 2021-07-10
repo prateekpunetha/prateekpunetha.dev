@@ -1,0 +1,9 @@
+name = "workers-site"
+type = 'webpack'
+route = 'https://prateekpunetha.dev/*'
+workers_dev = true
+target_type = "webpack"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
