@@ -1,8 +1,7 @@
 name = "workers-site"
-type = 'webpack'
-route = 'https://prateekpunetha.dev/*'
+type = "webpack"
 workers_dev = true
-target_type = "webpack"
+route = "https://prateekpunetha.dev/*"
 
 [site]
 bucket = "./public"
