@@ -1,6 +1,6 @@
 name = "workers-site"
 type = "webpack"
-workers_dev = true
+workers_dev = false
 route = "https://prateekpunetha.dev/*"
 
 [site]
