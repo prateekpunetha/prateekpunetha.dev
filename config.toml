@@ -47,9 +47,9 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Prateek Punetha"
-    subtitle = ""
-    owner = ""
-    keywords = ""
+    subtitle = "Prateek Punetha's Personal Site"
+    owner = "Prateek Punetha"
+    keywords = "blog, homepage, linux"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
