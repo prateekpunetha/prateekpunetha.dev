@@ -72,3 +72,7 @@ paginate = 5
         identifier = "blog"
         name = "Blog"
         url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "Software I Use"
+        name = "Software I Use"
+        url = "/software-i-use"
