@@ -11,7 +11,7 @@ Lenovo releases BIOS for ThinkPad in two formats. One is through **Bios Update U
 
 - Get the latest version of bios in .iso format for your model from the Lenovo support site.
 
-- Next, we need a Perl script called `geteltorito`, that extracts the boot image from the **bios.iso** file. Grab it from [**here**](https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito/geteltorito/geteltorito.pl)
+- Next, we need `geteltorito`, It's a Perl script that extracts the boot image from the **bios.iso** file. Grab it from [**here**](https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito/geteltorito/geteltorito.pl)
 
 - Extract the boot image from the bios.iso file (r1auj38wd.iso in my case) `$ geteltorito.pl -o bios_update.img r1auj38wd.iso`
 
