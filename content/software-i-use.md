@@ -2,6 +2,7 @@
 title = "Software I Use"
 date = "2021-07-14"
 tags = ["software", "linux"]
+description = "A new page with a list of programs I use"
 +++
 
 # Operating System
@@ -18,9 +19,9 @@ Arch Linux with BSPWM Tiling Window Manager.
 
   I only use vanilla zsh, with my [configs](https://github.com/prateekpunetha/dotfiles). I don't use oh my zsh because it is slow and has unnecessary stuff which I don't need.
 
-# Editor
+# Text Editing & Programming
 
-- **Vim/NeoVim**: It is a incredibly powerful and efficient text editor. The amount of stuff I've done in record time using vim is staggering.
+- **vim/Neovim**: vim is a incredibly powerful and efficient text editor. The amount of stuff I've done in record time using vim is staggering.
 
 # Web Browser
 
@@ -33,6 +34,10 @@ Arch Linux with BSPWM Tiling Window Manager.
 # Image Viewer
 
 - **sxiv**: A hacker-friendly scriptable image viewer. It also supports animated GIFs, thumbnails, and slideshows.
+
+# Document Viewer
+
+- **xreader**: A simple multi-page document viewer. It can also display and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, and DVI files.
 
 # Media Player
 
