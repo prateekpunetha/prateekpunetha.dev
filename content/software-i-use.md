@@ -37,7 +37,7 @@ Arch Linux with BSPWM Tiling Window Manager.
 
 # Document Viewer
 
-- **xreader**: A simple multi-page document viewer. It can also display and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, and DVI files.
+- **xreader**: A simple multi-page document viewer. It can display and print PDF, PostScript (PS), Encapsulated PostScript (EPS), DJVU, and DVI files.
 
 # Media Player
 
