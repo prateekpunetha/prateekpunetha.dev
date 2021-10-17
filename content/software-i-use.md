@@ -53,4 +53,6 @@ Arch Linux with BSPWM Tiling Window Manager.
 
 - **ImageMagick**: I use it to edit, convert, resize or rotate images.
 
+- **rclone**: Command line program for managing files over cloud storage. Yes, a Swiss army knife of cloud storage.
+
 - **youtube-dl**: CLI tool for downloading youtube videos. Can download youtube playlists or even an entire youtube channel. It also supports downloading from many other [websites](https://ytdl-org.github.io/youtube-dl/supportedsites.html).
