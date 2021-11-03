@@ -37,13 +37,29 @@ Arch Linux with BSPWM Tiling Window Manager.
 
 # Document Viewer
 
-- **xreader**: A simple multi-page document viewer. It can display and print PDF, PostScript (PS), Encapsulated PostScript (EPS), DJVU, and DVI files.
+- **zathura**: zathura is a minimal yet highly customizable plugin-based document viewer. If you want to make it read pdf, you'll need a plugin for that and the same goes for other types of doucments like ps, epub etc.
+
+Previously I used to use xreader, but now I've switched to zathura, because it just works
+the way I [want](https://github.com/prateekpunetha/dotfiles/blob/master/zathura/.config/zathura/zathurarc)
+it to be.
 
 # Media Player
 
 - **mpv**: Neat and simple interface video player which works perfectly with a wide variety of video formats and has all the customizations I need.
 
 - **Celluloid**: A really good front-end for mpv.
+
+# Email
+
+- **neomutt**: Simple yet powerful terminal based email client.
+
+# Sync
+
+- **syncthing**: Serverless device syncing.
+
+# RSS
+
+- **newsboat**: A simple RSS feed reader for the terminal.
 
 # Other
 
@@ -56,3 +72,4 @@ Arch Linux with BSPWM Tiling Window Manager.
 - **rclone**: Command line program for managing files over cloud storage. Yes, a Swiss army knife of cloud storage.
 
 - **youtube-dl**: CLI tool for downloading youtube videos. Can download youtube playlists or even an entire youtube channel. It also supports downloading from many other [websites](https://ytdl-org.github.io/youtube-dl/supportedsites.html).
+  Technically, I use [yt-dlp](https://github.com/yt-dlp) these days, because it has some additional features and it also fixes problems like buffering with mpv that I face with regular ytdl.
