@@ -47,8 +47,6 @@ it to be.
 
 - **mpv**: Neat and simple interface video player which works perfectly with a wide variety of video formats and has all the customizations I need.
 
-- **Celluloid**: A really good front-end for mpv.
-
 # Email
 
 - **neomutt**: Simple yet powerful terminal based email client.
