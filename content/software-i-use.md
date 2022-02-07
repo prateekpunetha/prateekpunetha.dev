@@ -25,11 +25,11 @@ Arch Linux with BSPWM Tiling Window Manager.
 
 # Web Browser
 
-- **Brave**: A FOSS, chromium-based web browser with the ability to block ads and trackers by default.
+- **Ungoogled Chromium**: Chromium based web browser with google components and blobs removed. I use it with extensions like uBlock Origin, Vimium etc.
 
 # File Manager
 
-- **ranger**: I mainly use ranger for just looking up files and bulk renaming. For operations like move, copy, etc. I use unix command utilities.
+- **ranger**: A highly [configurable](https://github.com/prateekpunetha/dotfiles/tree/master/ranger/.config/ranger) file manager, with vi key bindings and other cool stuff.
 
 # Image Viewer
 
@@ -61,7 +61,9 @@ it to be.
 
 # Other
 
-- **aria2**: It is a all-in-one downloading tool. I use it for torrenting and downloading files from other websites.
+- **rtorrent**: BitTorrent client.
+
+- **aria2**: All-in-one downloading tool.
 
 - **ffmpeg**: General purpose command-line tool for video and audio recording, and conversion. I mainly use it for adding subs to video files, concatenation, and cropping.
 
