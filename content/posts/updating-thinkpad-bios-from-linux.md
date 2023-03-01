@@ -5,25 +5,20 @@ tags = ["thinkpad", "linux", "bios", "E14"]
 description = "Today I updated my ThinkPad BIOS from Linux and here is a description of it."
 +++
 
-I got ThinkPad E14 Gen 2 (Ryzen) about a year ago, and I was planning to update the BIOS for it.
+About a year ago, I got a ThinkPad E14 Gen 2 (Ryzen) and wanted to update its BIOS.
 
-But I didn’t want to install Windows just to update the BIOS though. So I looked up on the Internet and found that:
+However, I didn't want to install Windows just to update the BIOS. After some research online, I discovered that Lenovo releases BIOS updates for ThinkPad in two formats - one is through the Bios Update Utility (Windows), which is a .exe file, and the other is a .iso file that can be flashed through a USB thumb drive.
 
-Lenovo releases BIOS for ThinkPad in two formats. One is through **Bios Update Utility (Windows)** which is a **.exe** file and the other is a **.iso** file, which can be flashed through a USB thumb drive.
+Here's how to update the BIOS under Linux:
 
-Here is how to do it under Linux in order to update the BIOS:
+1. Get the latest version of the BIOS in .iso format for your model from the Lenovo support site.
 
-- Get the latest version of bios in .iso format for your model from the Lenovo support site.
+2. Download `geteltorito`, a Perl script that extracts the boot image from the bios.iso file. You can grab it from [**here**](https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito/geteltorito/geteltorito.pl).
 
-- Next, we need `geteltorito`, It's a Perl script that extracts the boot image from the
-  **bios.iso** file. Grab it from [**here**](https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito/geteltorito/geteltorito.pl).
+3. Extract the boot image from the bios.iso file (in my case, the file was r1auj38wd.iso) using the command `$ geteltorito.pl -o bios_update.img r1auj38wd.iso`.
 
-- Extract the boot image from the bios.iso file (r1auj38wd.iso in my case). `$ geteltorito.pl -o bios_update.img r1auj38wd.iso`
+4. Copy the image to USB using the `dd` command: `$ sudo dd if=bios_update.img of=/dev/sda`. Note that you should replace `/dev/sda` with the corresponding device name for your system.
 
-- Copy Image to USB using dd. `$ sudo dd if=bios_update.img of=/dev/sda`
+5. Boot from your USB drive, follow the instructions, and update the BIOS.
 
-**Note**: replace `/dev/sda` with your corresponding device. Type very carefully this name or you may end up erasing one of your other disks.
-
-- After that, simply boot from your USB drive, read the instructions and update the BIOS.
-
-In the beginning, I was afraid of what I would do if anything went wrong. But it worked just fine :)
+At first, I was nervous about what would happen if anything went wrong, but everything worked out just fine :)
