@@ -3,4 +3,5 @@ resources/
 dist/
 node_modules/
 worker/
+.hugo_build.lock
 package-lock.json
