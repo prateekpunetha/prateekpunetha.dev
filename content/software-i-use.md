@@ -5,6 +5,8 @@ tags = ["software", "linux"]
 description = "A new page with a list of programs I use"
 +++
 
+![Homescreen](/img/home.webp)
+
 # Operating System
 
 Arch Linux with BSPWM Tiling Window Manager.
