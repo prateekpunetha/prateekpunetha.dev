@@ -9,7 +9,10 @@ aliases = [
 
 # Hi there
 
-My name is Prateek Punetha. I am 20 years old. Originally I am from Uttarakhand, India. I am very keen on anything related to computers and technology. I am currently pursuing a Bachelor's Degree in Computer Science from Maharashtra, India.
+My name is Prateek Punetha. I am 21 years old. Originally I am from Uttarakhand,
+India. I am very keen on anything related to computers and technology. I am
+currently pursuing a Bachelor's Degree in Computer Science from Maharashtra,
+India.
 
 # Contacting Me
 
@@ -18,8 +21,8 @@ You can contact me using the following means:
 - [Telegram](https://t.me/prateekpunetha)
 - Email me at [hi (at) prateekpunetha dot dev](mailto:hi@prateekpunetha.dev)
 
-For maximum privacy and security you can encrypt your messages with my [public
-key](/pubkey.txt).
+For maximum privacy and security you can encrypt your messages with my
+[public key](/pubkey.txt).
 
 # Quick Links
 
