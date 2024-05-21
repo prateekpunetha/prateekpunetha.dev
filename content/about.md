@@ -9,7 +9,7 @@ aliases = [
 
 # Hi there
 
-My name is Prateek Punetha. I am 21 years old. Originally I am from Uttarakhand,
+My name is Prateek Punetha. I am 22 years old. Originally I am from Uttarakhand,
 India. I am very keen on anything related to computers and technology. I am
 currently pursuing a Master's Degree in Computer Science from Maharashtra,
 India.
