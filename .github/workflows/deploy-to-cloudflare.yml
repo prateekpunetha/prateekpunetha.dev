@@ -22,14 +22,10 @@ jobs:
       - name: Build Hugo Site
         run: |
           hugo --minify --gc
-      - name: Publish to Cloudflare Workers Sites
+      - name: Deploy to Cloudflare
         run: |
-          echo "prefix = \"${HOME}\"" > ~/.npmrc
-          npm install -g @cloudflare/wrangler
-          mkdir -p ~/.wrangler/config/
-          echo "api_token=\"${CF_API_TOKEN}\"" > ~/.wrangler/config/default.toml
-          ~/bin/wrangler publish
+          npm install -g wrangler
+          wrangler deploy
         env:
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
