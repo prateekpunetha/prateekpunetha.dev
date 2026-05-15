@@ -45,7 +45,7 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "Prateek Punetha"
     subtitle = "Prateek Punetha's Personal Site"
     owner = "Prateek Punetha"
