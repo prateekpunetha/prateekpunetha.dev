@@ -1,9 +1,0 @@
-name = "workers-site"
-type = "webpack"
-workers_dev = false
-route = "https://prateekpunetha.dev/*"
-compatibility_date = "2024-12-14"
-
-[site]
-bucket = "./public"
-entry-point = "workers-site"
